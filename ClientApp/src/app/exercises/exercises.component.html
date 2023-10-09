@@ -1,0 +1,7 @@
+<mat-grid-list cols="4" rowHeight="2:1">
+  <mat-grid-tile style="display: grid" *ngFor="let item of exercises">
+    <div class="grid-body"></div>
+    <img src="" alt="{{ item.imgUrl }}" />
+    {{ item.name }}
+  </mat-grid-tile>
+</mat-grid-list>
